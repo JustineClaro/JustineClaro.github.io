@@ -16,7 +16,13 @@ body{
 body.dark {background-color: #292c35;} /* #9b59b6 */
 body.dark h1,body.dark h2,body.dark p,body.dark pre, body.dark .support a {color: #fff;}
 
+body.dark .container-resume {
+  background-color: #1e1e1e; /* Dark mode color */
+}
 
+body.dark hr {
+  border-top: 2px solid rgb(255, 255, 255);
+}
 
 .checkbox {
     opacity: 0;
@@ -105,9 +111,15 @@ body.dark h1,body.dark h2,body.dark p,body.dark pre, body.dark .support a {color
 
 
 
+hr {
+  border: none;
+  border-top: 2px solid rgb(0, 0, 0);
+  transition: border-color 0.3s ease-in-out;
+}
 
-
-
+body.dark hr {
+  border-top: 2px solid rgb(255, 255, 255);
+}
 
 
 
@@ -126,10 +138,7 @@ body.dark h1,body.dark h2,body.dark p,body.dark pre, body.dark .support a {color
 }
 .container-resume {
     background-color: rgb(57, 170, 170);
-    padding: 100px 50px;
+    padding: 80px 90px 200px 90px;
     margin: 0px 15rem 100px 15rem;
     transition: background 0.3s ease-in-out;
-}
-body.dark .container-resume {
-    background-color: #1e1e1e; /* Dark mode color */
 }
