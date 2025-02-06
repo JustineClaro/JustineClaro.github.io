@@ -137,8 +137,8 @@ body.dark hr {
     max-width: 200px; /* Set maximum width to keep the image within bounds */
 }
 .container-resume {
-    background-color: rgb(57, 170, 170);
-    padding: 80px 90px 200px 90px;
+    background-color: rgb(175, 235, 235);
+    padding: 80px 90px 400px 90px;
     margin: 0px 15rem 100px 15rem;
     transition: background 0.3s ease-in-out;
 }
